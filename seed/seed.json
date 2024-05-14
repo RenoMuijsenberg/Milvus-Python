@@ -1,0 +1,578 @@
+[
+  {
+    "name": "hotel_agent",
+    "keywords": [
+      "search",
+      "booking",
+      "hotel"
+    ]
+  },
+  {
+    "name": "restaurant_agent",
+    "keywords": [
+      "search",
+      "google",
+      "tickets"
+    ]
+  },
+  {
+    "name": "flight_agent",
+    "keywords": [
+      "search",
+      "flight",
+      "tickets"
+    ]
+  },
+  {
+    "name": "car_rental_agent",
+    "keywords": [
+      "search",
+      "car rental",
+      "reservation"
+    ]
+  },
+  {
+    "name": "tourist_guide_agent",
+    "keywords": [
+      "tourist attractions",
+      "guided tours",
+      "travel tips"
+    ]
+  },
+  {
+    "name": "event_ticketing_agent",
+    "keywords": [
+      "event tickets",
+      "concerts",
+      "sports events"
+    ]
+  },
+  {
+    "name": "movie_booking_agent",
+    "keywords": [
+      "movie tickets",
+      "cinema",
+      "showtimes"
+    ]
+  },
+  {
+    "name": "weather_forecast_agent",
+    "keywords": [
+      "weather",
+      "forecast",
+      "temperature"
+    ]
+  },
+  {
+    "name": "currency_exchange_agent",
+    "keywords": [
+      "currency exchange",
+      "exchange rate",
+      "foreign exchange"
+    ]
+  },
+  {
+    "name": "language_translation_agent",
+    "keywords": [
+      "language translation",
+      "translate",
+      "translator"
+    ]
+  },
+  {
+    "name": "recipe_search_agent",
+    "keywords": [
+      "recipe",
+      "cooking",
+      "ingredients"
+    ]
+  },
+  {
+    "name": "job_search_agent",
+    "keywords": [
+      "job",
+      "career",
+      "employment"
+    ]
+  },
+  {
+    "name": "news_update_agent",
+    "keywords": [
+      "news",
+      "headlines",
+      "current events"
+    ]
+  },
+  {
+    "name": "social_media_monitoring_agent",
+    "keywords": [
+      "social media",
+      "monitoring",
+      "analytics"
+    ]
+  },
+  {
+    "name": "fitness_tracker_agent",
+    "keywords": [
+      "fitness",
+      "exercise",
+      "health"
+    ]
+  },
+  {
+    "name": "music_streaming_agent",
+    "keywords": [
+      "music",
+      "streaming",
+      "playlist"
+    ]
+  },
+  {
+    "name": "book_recommendation_agent",
+    "keywords": [
+      "books",
+      "reading",
+      "recommendations"
+    ]
+  },
+  {
+    "name": "real_estate_search_agent",
+    "keywords": [
+      "real estate",
+      "property",
+      "homes for sale"
+    ]
+  },
+  {
+    "name": "language_learning_agent",
+    "keywords": [
+      "language learning",
+      "learn a language",
+      "language course"
+    ]
+  },
+  {
+    "name": "pet_adoption_agent",
+    "keywords": [
+      "pet adoption",
+      "animal shelter",
+      "rescue pets"
+    ]
+  },
+  {
+    "name": "car_sales_agent",
+    "keywords": [
+      "car sales",
+      "automobiles",
+      "used cars"
+    ]
+  },
+  {
+    "name": "legal_advice_agent",
+    "keywords": [
+      "legal advice",
+      "lawyer",
+      "legal consultation"
+    ]
+  },
+  {
+    "name": "medical_symptom_checker_agent",
+    "keywords": [
+      "medical symptoms",
+      "health",
+      "symptom checker"
+    ]
+  },
+  {
+    "name": "home_security_agent",
+    "keywords": [
+      "home security",
+      "security system",
+      "smart home"
+    ]
+  },
+  {
+    "name": "gaming_news_agent",
+    "keywords": [
+      "gaming",
+      "video games",
+      "game reviews"
+    ]
+  },
+  {
+    "name": "parenting_advice_agent",
+    "keywords": [
+      "parenting",
+      "childcare",
+      "parenting tips"
+    ]
+  },
+  {
+    "name": "budget_planning_agent",
+    "keywords": [
+      "budget planning",
+      "financial management",
+      "money saving"
+    ]
+  },
+  {
+    "name": "art_gallery_search_agent",
+    "keywords": [
+      "art gallery",
+      "art exhibitions",
+      "art events"
+    ]
+  },
+  {
+    "name": "online_course_recommendation_agent",
+    "keywords": [
+      "online courses",
+      "learning platform",
+      "course recommendations"
+    ]
+  },
+  {
+    "name": "travel_insurance_agent",
+    "keywords": [
+      "travel insurance",
+      "insurance coverage",
+      "trip protection"
+    ]
+  },
+  {
+    "name": "home_renovation_agent",
+    "keywords": [
+      "home renovation",
+      "interior design",
+      "remodeling"
+    ]
+  },
+  {
+    "name": "gardening_tips_agent",
+    "keywords": [
+      "gardening",
+      "plants",
+      "gardening advice"
+    ]
+  },
+  {
+    "name": "dating_advice_agent",
+    "keywords": [
+      "dating",
+      "relationships",
+      "love advice"
+    ]
+  },
+  {
+    "name": "virtual_assistant_agent",
+    "keywords": [
+      "virtual assistant",
+      "personal assistant",
+      "AI assistant"
+    ]
+  },
+  {
+    "name": "e-commerce_recommendation_agent",
+    "keywords": [
+      "e-commerce",
+      "online shopping",
+      "product recommendations"
+    ]
+  },
+  {
+    "name": "yoga_instruction_agent",
+    "keywords": [
+      "yoga",
+      "fitness",
+      "yoga poses"
+    ]
+  },
+  {
+    "name": "tax_filing_assistance_agent",
+    "keywords": [
+      "tax filing",
+      "tax preparation",
+      "tax advice"
+    ]
+  },
+  {
+    "name": "job_interview_prep_agent",
+    "keywords": [
+      "job interview",
+      "interview preparation",
+      "interview tips"
+    ]
+  },
+  {
+    "name": "home_cleaning_service_agent",
+    "keywords": [
+      "home cleaning",
+      "cleaning service",
+      "maid service"
+    ]
+  },
+  {
+    "name": "language_tutoring_agent",
+    "keywords": [
+      "language tutoring",
+      "tutor",
+      "language lessons"
+    ]
+  },
+  {
+    "name": "fitness_equipment_sales_agent",
+    "keywords": [
+      "fitness equipment",
+      "exercise machines",
+      "gym equipment"
+    ]
+  },
+  {
+    "name": "pet_care_tips_agent",
+    "keywords": [
+      "pet care",
+      "pet health",
+      "pet grooming"
+    ]
+  },
+  {
+    "name": "career_counseling_agent",
+    "keywords": [
+      "career counseling",
+      "career advice",
+      "job search"
+    ]
+  },
+  {
+    "name": "music_instrument_sales_agent",
+    "keywords": [
+      "music instruments",
+      "musical instruments",
+      "instrument sales"
+    ]
+  },
+  {
+    "name": "resume_writing_service_agent",
+    "keywords": [
+      "resume writing",
+      "CV writing",
+      "professional resumes"
+    ]
+  },
+  {
+    "name": "home_decorating_agent",
+    "keywords": [
+      "home decorating",
+      "interior decor",
+      "decorating ideas"
+    ]
+  },
+  {
+    "name": "student_loan_advice_agent",
+    "keywords": [
+      "student loans",
+      "education finance",
+      "loan repayment"
+    ]
+  },
+  {
+    "name": "computer_repair_service_agent",
+    "keywords": [
+      "computer repair",
+      "IT support",
+      "tech assistance"
+    ]
+  },
+  {
+    "name": "personal_finance_management_agent",
+    "keywords": [
+      "personal finance",
+      "budgeting",
+      "financial planning"
+    ]
+  },
+  {
+    "name": "psychological_counseling_agent",
+    "keywords": [
+      "psychological counseling",
+      "therapy",
+      "mental health"
+    ]
+  },
+  {
+    "name": "hiking_trail_guide_agent",
+    "keywords": [
+      "hiking trails",
+      "trail guide",
+      "outdoor activities"
+    ]
+  },
+  {
+    "name": "pet_training_agent",
+    "keywords": [
+      "pet training",
+      "dog training",
+      "pet behavior"
+    ]
+  },
+  {
+    "name": "home_security_system_agent",
+    "keywords": [
+      "home security system",
+      "alarm system",
+      "security cameras"
+    ]
+  },
+  {
+    "name": "fitness_class_schedule_agent",
+    "keywords": [
+      "fitness classes",
+      "exercise schedule",
+      "workout sessions"
+    ]
+  },
+  {
+    "name": "language_exchange_partner_agent",
+    "keywords": [
+      "language exchange",
+      "language partner",
+      "conversation practice"
+    ]
+  },
+  {
+    "name": "online_gaming_community_agent",
+    "keywords": [
+      "online gaming",
+      "gaming community",
+      "multiplayer games"
+    ]
+  },
+  {
+    "name": "healthy_recipe_recommendation_agent",
+    "keywords": [
+      "healthy recipes",
+      "nutrition",
+      "cooking ideas"
+    ]
+  },
+  {
+    "name": "home_buying_advice_agent",
+    "keywords": [
+      "home buying",
+      "real estate advice",
+      "property investment"
+    ]
+  },
+  {
+    "name": "legal_document_preparation_agent",
+    "keywords": [
+      "legal document preparation",
+      "legal forms",
+      "document drafting"
+    ]
+  },
+  {
+    "name": "virtual_meeting_platform_agent",
+    "keywords": [
+      "virtual meetings",
+      "video conferencing",
+      "online collaboration"
+    ]
+  },
+  {
+    "name": "event_planning_service_agent",
+    "keywords": [
+      "event planning",
+      "party planning",
+      "event coordination"
+    ]
+  },
+  {
+    "name": "digital_marketing_consultant_agent",
+    "keywords": [
+      "digital marketing",
+      "marketing strategy",
+      "online advertising"
+    ]
+  },
+  {
+    "name": "travel_blog_recommendation_agent",
+    "keywords": [
+      "travel blogs",
+      "travel destinations",
+      "travel experiences"
+    ]
+  },
+  {
+    "name": "recipe_generator_agent",
+    "keywords": [
+      "recipe generator",
+      "meal ideas",
+      "food inspiration"
+    ]
+  },
+  {
+    "name": "home_maintenance_tips_agent",
+    "keywords": [
+      "home maintenance",
+      "DIY",
+      "home repairs"
+    ]
+  },
+  {
+    "name": "investment_portfolio_management_agent",
+    "keywords": [
+      "investment portfolio",
+      "financial investments",
+      "portfolio management"
+    ]
+  },
+  {
+    "name": "wedding_planning_service_agent",
+    "keywords": [
+      "wedding planning",
+      "bridal services",
+      "event coordination"
+    ]
+  },
+  {
+    "name": "music_concert_ticket_agent",
+    "keywords": [
+      "music concerts",
+      "live events",
+      "concert tickets"
+    ]
+  },
+  {
+    "name": "online_language_course_agent",
+    "keywords": [
+      "online language courses",
+      "language learning",
+      "language lessons"
+    ]
+  },
+  {
+    "name": "virtual_fitness_training_agent",
+    "keywords": [
+      "virtual fitness training",
+      "online workouts",
+      "personal training"
+    ]
+  },
+  {
+    "name": "pet_grooming_service_agent",
+    "keywords": [
+      "pet grooming",
+      "pet care",
+      "dog grooming"
+    ]
+  },
+  {
+    "name": "home_insurance_quote_agent",
+    "keywords": [
+      "home insurance",
+      "insurance quote",
+      "property insurance"
+    ]
+  }
+]
