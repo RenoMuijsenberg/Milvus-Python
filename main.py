@@ -70,3 +70,9 @@ if __name__ == "__main__":
     db_manager = DatabaseManager("agents")
     if not db_manager.check_collection():
         db_manager.create_collection()
+
+    result = db_manager.similarity_search(["hotel", "car"])
+
+    for res in result:
+        for obj in res:
+            print(obj.entity.get("name"))
