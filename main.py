@@ -1,7 +1,10 @@
-import time
+import os
 
+from dotenv import load_dotenv
 from pymilvus import connections, utility, FieldSchema, CollectionSchema, DataType, Collection, model
 from sentence_transformers import SentenceTransformer
+
+load_dotenv()
 
 
 class DatabaseManager:
@@ -12,7 +15,7 @@ class DatabaseManager:
 
     @staticmethod
     def connect_to_milvus():
-        connections.connect("default", host="localhost", port="19530")
+        connections.connect("default", uri=os.environ.get("MILVUS_URI"), token=os.environ.get("MILVUS_TOKEN"))
 
     def check_collection(self):
         return utility.has_collection(self.collection_name)
@@ -21,7 +24,8 @@ class DatabaseManager:
         fields = [
             FieldSchema(name="pk", dtype=DataType.VARCHAR, is_primary=True, auto_id=True, max_length=100),
             FieldSchema(name="name", dtype=DataType.VARCHAR, max_length=100),
-            FieldSchema(name="keywords", dtype=DataType.ARRAY, element_type=DataType.VARCHAR, max_capacity=100, max_length=100),
+            FieldSchema(name="keywords", dtype=DataType.ARRAY, element_type=DataType.VARCHAR, max_capacity=100,
+                        max_length=100),
             FieldSchema(name="embeddings", dtype=DataType.FLOAT_VECTOR, dim=384)
         ]
         schema = CollectionSchema(fields, "Database collection where context of agents will be stored.")
@@ -63,16 +67,6 @@ class DatabaseManager:
 
 
 if __name__ == "__main__":
-    start = time.time()
     db_manager = DatabaseManager("agents")
     if not db_manager.check_collection():
         db_manager.create_collection()
-
-    results = db_manager.similarity_search(["booking", "search"])
-
-    for hits in results:
-        for hit in hits:
-            print(f"{hit.entity.get('name')}")
-
-    stop = time.time()
-    print(f"Execution time: {stop - start}")
